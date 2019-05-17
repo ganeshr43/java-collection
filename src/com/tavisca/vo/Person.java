@@ -54,6 +54,11 @@ public class Person {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "\nPerson [firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender +", age=" + age + "]";
+    }
+
 //    @Override
 //    public int compare(Person o1, Person o2) {
 //        Integer fNameComparison = o1.firstName.compareTo(o2.firstName);
